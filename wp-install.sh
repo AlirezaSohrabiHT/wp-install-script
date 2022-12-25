@@ -3,6 +3,8 @@
 #this is a beta version be carefull
 #this script need 755 permission
 
+wget https://wordpress.org/latest.tar.gz
+
 tar -xvf latest.tar.gz
 
 if [ -f "index.html" ]
